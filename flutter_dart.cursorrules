@@ -123,6 +123,10 @@ Generate code, corrections, and refactorings that comply with the basic principl
 - Break down large widgets into smaller, focused widgets
 - Utilize const constructors wherever possible to reduce rebuilds
 
+### Packages
+- Only add packages to pubspec.yaml if they are really necessary
+- Never downgrade a package version if it already exists in pubspec.yaml
+
 ### Testing
 
 - Use the standard widget testing for flutter
